@@ -1,64 +1,64 @@
+<h1>Galaxy s5 active (sm-870a)</h1>
 
-Galaxy s5 active (sm-870a)
+<h4>Downgrade</h4>
+- windows: 
+	<br>open odin
+	<br>click:AP (under file download)
+	<br>browse to:G870A_NE4_Stock_Kernel.tar.md5
 
-__________________________Downgrade__________________________________
+- phone:
+	<br>turn off cell phone
+	<br>press power, volume down, home button at same time 
+	<br>plug usb cable to cell and the computer
 
-- On windows - 
-	open odin
-	click:AP (under file download)
-	browse to:G870A_NE4_Stock_Kernel.tar.md5
+- windows:
+	<br>click start
 
-- On cell phone -
-	turn off cell phone
-	press power, volume down, home button at same time 
-	plug usb cable to cell and the computer
+<h4>Root</h4>
+- phone:
+	<br>setting - security:unknown source
+	<br>towelroot.com:click on the icon to download
+	<br>root your phone by click on the button in the app
 
-on windows:click start
+<h4>Kali</h4>
+- google store:
+	<br>linux deploy
+	<br>terminal emulator for android
+	<br>vnc viewer
+	<br>busyboxfree
 
-__________________________Root_______________________________________
-	
-- On cell phone -
-	setting - security:unknown source
-	towelroot.com:click on the icon to download
-	root your phone by click on the button in the app
+- linux deploy:
+	<br>built-in shell
+	<br>environment update
 
-__________________________Kali_______________________________________
+- reboot the phone
 
-- Google store -
-	linux deploy
-	terminal emulator for android
-	vnc viewer
-	busyboxfree
-	selinux mode changer
+- linux deploy:
+	<br>kali linux
+	<br>user name:root
+	<br>desktop:gnome
+	<br>all composants except kali composants
+	<br>resolution width:1920,height:1080 432ppi
+	<br>install
+	<br>start
 
-selinux : permissive
+- vnc viewer password:changeme
 
-- linux deploy -
-	built-in shell
-	environement update
+- terminal kali:
+	<br>apt-get update
+	<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	<br>Error from GDbus
+	<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	<br>apt-get install kali-linux-full
 
-- terminal emulator- 
-	su -
-	cd /data/data/ru.meefik.linuxdeploy/
-	chmod -R 777 linux
 
-reboot cell phone
+<h2>Others issues</h2>
 
-- linux deploy -
-	kali linux
-	all composante except kai composante
-	resolution width:1920,height:1080 432ppi
-	desktop:gnome
-	install
+- google store: selinux 
 
-- Terminal -
-	su -
-	cd data/data/ru.meefik.linuxdeploy/linux/bin/
-	linuxdeploy shell
-	apt-get update
-	apt-get install kali-linux-full
-
-linux deploy:start
-vnc viewer:root, changeme
-
-You are now in your vserver logged as root. You can change your password and add your user "android" in /etc/sudoers
+- phone terminal:
+	<br> su -
+	<br>cd /data/data/ru.meefik.linuxdeploy/
+	<br>chmod -R 777 linux
+    	<br>cd linux/bin/
+	<br>linuxdeploy shell
