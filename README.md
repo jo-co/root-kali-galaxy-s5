@@ -1,4 +1,4 @@
-<h1>Galaxy s5 active (sm-870a)</h1>
+<h1>Galaxy s5 active (sm-870a)</h1> 2.0
 
 <h4>Downgrade</h4>
 - windows: 
@@ -13,6 +13,7 @@
 
 - windows:
 	<br>click start
+	<br>format sd card:512 MB - FAT 32 & rest to EXT2
 
 <h4>Root</h4>
 - phone:
@@ -35,30 +36,34 @@
 
 - linux deploy:
 	<br>kali linux
+	<br>installation path:/data/sdext2/linux.img
 	<br>user name:root
 	<br>desktop:gnome
-	<br>all composants except kali composants
-	<br>resolution width:1920,height:1080 432ppi
+	<br>all components except kali components
+	<br>resolution width:1920,height:1080 480ppi
 	<br>install
-	<br>start
+
+- phone terminal:
+	<br>su -
+	<br>cd /data/data/ru.meefik.linuxdeploy/linux/bin/
+	<br>linuxdeploy shell
+	<br>apt-get update
+	<br>apt-get install kali-linux-all
+	<br>(https://www.kali.org/news/kali-linux-metapackages/)
+
+- linux deploy:start
 
 - vnc viewer password:changeme
 
-- terminal kali:
-	<br>apt-get update
-	<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-	<br>Error from GDbus
-	<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-	<br>apt-get install kali-linux-full
 
 
 <h2>Others issues</h2>
 
 - google store: selinux 
 
+- google store: supersu (start the app to disable knox)
+
 - phone terminal:
-	<br> su -
+	<br>su -
 	<br>cd /data/data/ru.meefik.linuxdeploy/
 	<br>chmod -R 777 linux
-    	<br>cd linux/bin/
-	<br>linuxdeploy shell
