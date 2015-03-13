@@ -1,4 +1,4 @@
-<h1>Galaxy s5 active (sm-870a)</h1> 2.0
+<h1>Galaxy s5 active (sm-g870a)</h1>
 
 <h4>Downgrade</h4>
 - windows: 
